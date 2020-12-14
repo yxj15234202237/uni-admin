@@ -1,6 +1,6 @@
 <template>
-    <div id="app">
-      <router-view></router-view>
+    <div>
+        商品列表
     </div>
 </template>
 
@@ -9,10 +9,8 @@
         name: "" ,
         components: {} ,
         data() {
-            return {
-
-            }
-        },
+            return {}
+        }
     }
 </script>
 
@@ -24,8 +22,4 @@
         text-decoration: none;
         box-sizing: border-box;
     }
-  html,body,#app{
-    width: 100%;
-    height: 100%;
-  }
 </style>
